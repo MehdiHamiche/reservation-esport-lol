@@ -1,0 +1,32 @@
+{
+  "name": "reservation-esport-lol",
+  "version": "1.0.0",
+  "description": "Reservation de tournoi e-sport.\n\nDans ce site, il y a :\n- un administrateur (qui gère le site),\n- un profil organisateur qui peut créer un nouveau tournoi et gérer les inscriptions,\n- un profil joueur qui s'inscrit aux tournois des jeux qui l'intéressent,\n- un profil spectateur qui peut s'inscrire aux événements présentiel.\n\nUn tournoi peut être gratuit à l'entrée ou à inscription payante. Les horaires seront indiqués pour chaque tournoi et un joueur ne pourra pas s'inscrire à plusieurs événements qui ont lieu dans la même journée.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Mehdi.H & Alexis.L",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.8",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "cron": "^3.1.7",
+    "dotenv": "^16.4.5",
+    "express": "^4.18.3",
+    "express-rate-limit": "^7.2.0",
+    "helmet": "^7.1.0",
+    "mongodb": "^6.5.0",
+    "mongoose": "^8.2.2",
+    "morgan": "^1.10.0",
+    "node-cron": "^3.0.3",
+    "passport": "^0.7.0",
+    "passport-local": "^1.0.0",
+    "reservation-esport-lol": "file:",
+    "socket.io": "^4.7.5",
+    "twisted": "^1.57.0"
+  }
+}
